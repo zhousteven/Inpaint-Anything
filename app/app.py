@@ -351,4 +351,4 @@ with gr.Blocks() as demo:
     )
 
 if __name__ == "__main__":
-    demo.queue(api_open=False).launch(server_name='0.0.0.0', share=False, debug=True)
+    demo.queue(api_open=False).launch(server_name='0.0.0.0', share=True, debug=True)
